@@ -1,0 +1,104 @@
+*args and **kwargs
+
+Topics Covered
+Variable-Length Arguments (*args)
+Variable-Length Keyword Arguments (**kwargs)
+Tuples and Dictionaries in Function Parameters
+Tuple Unpacking
+Dictionary Methods
+keys()
+values()
+items()
+Counting Dictionary Entries with len()
+Checking for Key Existence
+Writing Flexible and Reusable Functions
+What I Learned
+
+This week I learned how Python allows functions to accept an unknown number of arguments using *args and **kwargs. Before learning these concepts, I believed every function had to define a fixed number of parameters. Now I understand that Python provides flexible ways of designing functions that can adapt to different situations.
+
+I learned that *args collects positional arguments into a tuple, while **kwargs collects keyword arguments into a dictionary. Understanding the underlying data structures made these concepts much easier because I already knew how tuples and dictionaries work.
+
+One of the biggest lessons this week was realizing that choosing the correct data structure also determines the tools I should use. For example, when working with **kwargs, I should think like someone working with a dictionary. That means using dictionary methods such as .keys(), .values(), and .items() instead of trying to solve every problem with loops.
+
+I also learned that not every problem requires iteration. Sometimes Python already provides a built-in function that solves the problem more clearly. A good example was using len() to count keyword arguments instead of writing an unnecessary loop.
+
+Another important lesson was understanding that writing less code is not the goal. The goal is writing code that is simple, readable, and easy for another developer to understand.
+
+Coding Exercises Completed
+*args Exercises
+Function that adds any number of numbers.
+Function that prints multiple strings.
+Function that returns the largest number from any number of arguments.
+**kwargs Exercises
+Display key-value pairs.
+Count keyword arguments.
+Print only dictionary keys.
+Print only dictionary values.
+Check whether an "email" key exists and display its value.
+
+These exercises helped me understand that **kwargs is simply a dictionary, meaning every dictionary operation I already knew could be applied naturally.
+
+Challenges I Faced
+
+One challenge was understanding what kwargs.items() actually returns. At first, I stored the result in a single variable instead of unpacking it into key and value.
+
+I also confused the function name with the dictionary itself when trying to access the email value. Instead of accessing the dictionary, I mistakenly tried to access the function as though it were a dictionary.
+
+Another challenge was trying to solve simple problems with loops even when a built-in function such as len() was the better solution. This reminded me that good software engineering is not about writing more code but about choosing the right tool for the problem.
+
+Mistakes I Made
+Forgot to print returned values in earlier exercises.
+Printed the entire dictionary instead of printing individual key-value pairs.
+Used sum() when the exercise required counting rather than adding.
+Wrote unnecessary loops for problems that could be solved directly.
+Confused the function name with the kwargs dictionary.
+Had quotation mark conflicts inside f-strings when accessing dictionary values.
+Initially forgot that iterating over a dictionary returns its keys by default.
+
+Each mistake strengthened my understanding of how dictionaries behave and how functions should be designed.
+
+Key Lessons
+*args stores positional arguments inside a tuple.
+**kwargs stores keyword arguments inside a dictionary.
+Every data structure provides tools that are appropriate for solving different problems.
+len() should be considered whenever I need to know how many items exist in a collection.
+Dictionary methods (keys(), values(), and items()) each serve different purposes.
+Simpler code is often better than more complicated code.
+A backend engineer should choose solutions based on readability, maintainability, and correctness rather than trying to use the most advanced syntax.
+Biggest Mindset Shift
+
+This week changed the way I approach programming problems.
+
+Previously, when I saw a collection of data, my first instinct was to write a loop. Now my first question is:
+
+"What am I trying to accomplish?"
+
+If I only need the number of items, I should consider len().
+
+If I need only the keys, I should work with the dictionary keys.
+
+If I need both the keys and values, I should work with key-value pairs.
+
+Instead of immediately writing code, I am learning to identify the most appropriate tool for the task before I begin solving the problem.
+
+This way of thinking will help me write cleaner backend systems that are easier to maintain and extend.
+
+Resources Used
+Python documentation
+Personal coding exercises
+Code reviews and debugging discussions
+GitHub practice repository
+Goals for Next Week
+Master Lambda Functions.
+Master List Comprehensions.
+Learn Dictionary Comprehensions.
+Continue making Git commits after every completed exercise.
+Focus on solving problems independently before asking for help.
+Continue developing the habit of thinking like a backend engineer rather than simply writing code that works.
+Reflection
+
+This week reinforced the idea that understanding the behavior of data structures is just as important as understanding Python syntax. Every exercise required me to think about the type of data I was working with before deciding how to solve the problem.
+
+I also noticed a change in how I learn. Instead of immediately looking for solutions when my code fails, I now spend time identifying the cause of the problem, asking targeted questions, and refining my own approach. This process has made me more confident in debugging and has helped me understand concepts more deeply.
+
+The most valuable lesson from this week is that professional software engineering is not about writing clever code—it is about writing code that is clear, reliable, and maintainable. As I continue my journey toward becoming a Backend AI Software Engineer, I want every new concept I learn to strengthen not only my Python skills but also my ability to design software that solves real-world problems effectively.
