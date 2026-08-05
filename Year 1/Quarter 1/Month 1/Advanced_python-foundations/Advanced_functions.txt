@@ -1,0 +1,77 @@
+ Advanced Functions
+
+Topics Covered
+Python Functions
+Function Parameters
+Return Values
+Local and Global Variables
+Function Design
+Input Validation (Introduction)
+Problem Decomposition
+
+What I Learned
+This week I focused on understanding Python functions beyond just writing code that runs. I learned how to define reusable functions, pass data using parameters, and return values instead of printing everything directly inside functions.
+One of the biggest lessons was understanding that parameters make functions reusable. Instead of relying on global variables, a function should receive the data it needs as input. This makes the function easier to reuse, test, and maintain.
+I also learned that every function should have a single responsibility. Rather than writing one large function that performs many tasks, it is better to split the program into smaller functions, each responsible for one specific job.
+Another important lesson was that software engineering is different from simply knowing Python syntax. As a future backend engineer, I need to think about how my code behaves with both valid and invalid input, not just whether it runs successfully.
+
+Coding Exercises Completed
+I completed several function-based exercises, including:
+Welcome message function
+Personalized greeting function
+Arithmetic operations using separate functions
+Even or odd number checker
+Largest of three numbers
+Student letter grade calculator
+ATM simulator using multiple functions
+The ATM project was my favorite because it required me to think about how a real system should be organized rather than just solving a simple programming problem.
+
+Challenges I Faced
+At the beginning, I struggled with understanding the difference between returning a value and printing a value. My first function returned a string, but I forgot to print the returned value.
+I also relied on global variables without realizing why that could become a problem in larger applications.
+Another challenge was thinking beyond getting the correct output. I wasn't considering invalid inputs, edge cases, or how another developer might use my functions.
+
+Mistakes I Made
+Forgot to print returned values.
+Relied on global variables instead of passing parameters.
+Used Python's max() function before solving the logic manually.
+Focused on making programs work before thinking about software design.
+Didn't initially test edge cases such as invalid or unexpected input.
+These mistakes helped me understand why backend engineers spend time designing software before writing code.
+
+Key Lessons
+A function should have one clear responsibility.
+Parameters make functions reusable.
+Returning values is often better than printing inside functions.
+Code should be designed for reuse and maintainability.
+User input should never be trusted without validation.
+Thinking like a backend engineer means asking, "What could go wrong?" before writing code.
+Good software is not only correct—it is secure, reliable, and maintainable.
+
+Biggest Mindset Shift
+The most important thing I learned this week was the difference between writing Python code and thinking like a backend engineer.
+Previously, my goal was to make the program run.
+Now, before writing code, I ask questions such as:
+What input should this function accept?
+What happens if the input is invalid?
+Can this function be reused?
+Does it have a single responsibility?
+How would this behave in a real backend application?
+This change in thinking is an important step toward my goal of becoming a Backend AI Software Engineer who builds secure, scalable backend systems and integrates AI to create intelligent applications.
+
+Resources Used
+Python documentation
+Personal coding exercises
+Code reviews and discussions after each exercise
+
+Goals for Next Week
+Learn *args and **kwargs.
+Understand when to use each one.
+Complete 10 coding exercises without relying on hints.
+Continue practicing engineering thinking instead of only Python syntax.
+Make meaningful GitHub commits after every practice session.
+
+Reflection
+Today's learning reminded me that programming is not just about writing code that produces the correct output. It is about designing software that is reusable, maintainable, secure, and reliable.
+Every exercise taught me something new, but the biggest lesson was learning to think beyond syntax. I want every function I write from now on to reflect the mindset of a backend engineer rather than someone simply learning Python.
+This week marks an important milestone in my journey toward becoming a Backend AI Software Engineer.
