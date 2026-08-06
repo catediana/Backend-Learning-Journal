@@ -1,0 +1,72 @@
+Lambda Functions
+
+Date: August 6, 2026
+
+Topics Covered
+Lambda Functions
+Anonymous Functions
+Lambda Syntax
+Conditional Expressions (value_if_true if condition else value_if_false)
+Built-in Functions vs Object Methods
+When to Use Lambda Functions
+When to Use Normal Functions
+What I Learned
+
+This week I learned about Python lambda functions, also known as anonymous functions. A lambda function is a small function that contains only a single expression and automatically returns the result of that expression. Unlike normal functions, lambda functions do not use the def keyword or an explicit return statement.
+
+One of the biggest lessons I learned is that lambda functions are not designed to replace normal functions. Instead, they are useful when a function is simple, short-lived, and only needs to perform a single operation. Whenever the logic becomes more complex, a normal function is the better choice because it improves readability and maintainability.
+
+Another important concept I learned was Python's conditional expression:
+
+value_if_true if condition else value_if_false
+
+This was the missing piece that helped me understand how lambda functions can make decisions without using a normal if statement.
+
+I also learned the difference between object methods and built-in functions. At first, I mistakenly tried to call len() as if it were a string method using
+
+
+Future Improvements
+
+As I continue learning Python, I want to become more comfortable recognizing situations where lambda functions are the best choice. I also want to practice using them together with Python's higher-order functions such as:
+
+map()
+filter()
+sorted()
+max()
+min()
+
+I know these functions often use lambda expressions, so mastering them will prepare me for writing cleaner and more professional Python code.
+
+I also want to practice deciding when not to use a lambda. Good software engineering is not about writing the shortest code possible—it is about writing code that is easy to understand, maintain, and extend.
+
+Backend Engineering Connection
+
+Although lambda functions are a relatively small feature of Python, they are commonly used in backend development when processing collections of data, transforming values, or passing small functions as arguments.
+
+As a future backend engineer, I understand that knowing the syntax is only part of the journey. I also need to understand why a particular approach is chosen. Learning lambda functions has shown me that there are often multiple ways to solve the same problem, and choosing the most readable and maintainable solution is an important engineering skill.
+
+This week also reinforced the importance of thinking in expressions rather than only in procedural steps. That mindset will become increasingly valuable as I work with frameworks like Django, APIs, data processing, and eventually AI applications.
+
+Overall Progress This Week
+
+This week marked another important milestone in my Python journey.
+
+Compared to my earlier studies, I noticed several improvements:
+
+I now spend more time thinking before writing code instead of immediately typing.
+I ask myself what the function is expected to return before I start implementing it.
+I am becoming more comfortable reading Python error messages instead of feeling discouraged by them.
+I understand that debugging is part of software development, not a sign that I am failing.
+My Git workflow has improved through making focused commits after completing meaningful pieces of work.
+
+One area I still want to improve is recognizing Python's built-in functions and distinguishing them from object methods. The mistake I made with course.len() reminded me that understanding Python's standard library is just as important as learning the language syntax.
+
+Reflection
+
+This week taught me that learning programming is not about memorizing syntax—it is about understanding how Python thinks.
+
+When I first started the lambda exercises, I found them confusing because I kept trying to write them like normal functions. I eventually realized that the challenge was not lambda itself but changing the way I approached the problem. Once I understood conditional expressions and the difference between built-in functions and object methods, the remaining exercises became much easier.
+
+I also noticed something encouraging about my own learning process. At the beginning of this journey, I often needed guidance for almost every exercise. Now, I can usually identify the problem, explain my reasoning, and solve most exercises independently. When I do get stuck, it is often because I am missing a single concept rather than lacking the ability to solve the problem.
+
+This experience has increased my confidence. Every topic I complete strengthens the foundation I am building for backend engineering. I know there are still many concepts ahead, but I also know that consistent practice, thoughtful reflection, and disciplined learning will help me reach my goal of becoming a professional Backend Software Engineer.
