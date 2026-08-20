@@ -1,0 +1,71 @@
+List Comprehensions
+
+Topics Covered
+List Comprehensions
+for loops inside comprehensions
+Filtering with if
+Transforming data
+range()
+Using built-in functions such as len()
+What I Learned
+
+This week I learned how to use list comprehensions to create new lists from existing iterables in a concise way.
+
+I learned the basic structure:
+
+[expression for item in iterable]
+
+and how to add conditions:
+
+[expression for item in iterable if condition]
+
+I also learned that list comprehensions can both filter and transform data in a single expression.
+
+Coding Exercises Completed
+
+I practiced:
+
+Generating squares of numbers.
+Filtering even numbers.
+Squaring odd numbers.
+Finding the length of each word in a list.
+Combining filtering and transformation.
+Challenges I Faced
+
+My main challenges were understanding the difference between the entire list and individual items inside the list. I also made an off-by-one mistake with range() by forgetting that its ending value is excluded.
+
+I also initially confused:
+
+len(word)
+
+with:
+
+len(length)
+
+which helped me understand the difference between finding the length of an individual string and finding the number of items in a list.
+
+Key Lessons
+List comprehensions make simple data transformations concise.
+if can be used to filter items.
+The expression determines what goes into the new list.
+range() excludes its stop value.
+Readability is more important than making code unnecessarily short.
+Biggest Mindset Shift
+
+I learned to think about list comprehensions as:
+
+iterate → filter → transform
+
+Instead of immediately writing a for loop, I now ask what I'm iterating over, what I want to keep, and what I want the resulting value to be.
+
+Backend Engineering Connection
+
+List comprehensions will be useful when processing collections of data such as API responses, database records, and application data.
+
+However, I also learned that a normal for loop can be better when the logic becomes complicated because maintainability matters more than writing fewer lines.
+
+Reflection
+
+List comprehensions initially confused me, but after several exercises I became more comfortable breaking them into their individual parts. The mistakes I made with range(), len(), and variable naming helped me understand the concept rather than simply memorizing the syntax.
+
+I am becoming better at reasoning through Python problems before writing code, which is an important step toward becoming a strong backend engineer.
