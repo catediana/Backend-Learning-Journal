@@ -1,0 +1,45 @@
+Python Modules
+
+Topic: Python Modules
+
+What I learned
+
+Today I learned about Python modules. A module is simply a Python .py file that contains code which can be reused in another Python file.
+
+I learned that modules help me organize and reuse my code instead of putting everything into one large file.
+
+For example, I created a greetings.py module containing a hello() function and imported it into main.py.
+
+I learned two basic ways of importing
+import greetings
+
+Then I can use:
+
+greetings.hello()
+
+Or I can import the function directly:
+
+from greetings import hello
+
+Then use:
+
+hello()
+What I practiced
+
+I created two Python files:
+
+greetings.py
+main.py
+
+I successfully imported a function from one module and used it in another file.
+
+Key takeaway
+
+A module is a .py file containing reusable Python code.
+
+What I need to remember
+import module → imports the whole module.
+from module import function → imports a specific function.
+Use module.function() when importing the whole module.
+Use function() when importing the function directly.
+Modules help keep projects organized, reusable, and easier to maintain.
